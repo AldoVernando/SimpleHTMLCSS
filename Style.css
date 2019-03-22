@@ -1,0 +1,219 @@
+body {
+ 	position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+	font-family: Arial,Myriad Pro,sans-serif;
+}
+
+.header{
+	width: 100%;
+	height: 15%;
+}
+
+.logo{
+	background: url(Assets/DOcodingLogo.jpg) no-repeat;
+	width: 80%;
+	height: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    background-color: #333;
+	overflow-y: hidden;
+
+
+}
+
+li {
+    display: inline-block;
+	overflow-y: hidden;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	overflow-y: hidden;
+
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.navbar{
+	top: 20%;
+	left: 0;
+    right: 0;
+	width: 100%;
+	color: white;
+
+}
+
+.containerContent{
+	width: 100%;
+    height: 400px;
+    background-color: #233237;
+}
+
+.content{
+	background: url("Assets/backgroundHeader.png") no-repeat;
+	background-size: 80% 400px;
+	width: 80%;
+    height: 400px;
+    margin-left: 10%;
+    background-position: center;
+}
+
+.content:hover{
+	background: url("Assets/backgroundHeader2.jpg") no-repeat;
+	background-size: 80% 400px;
+	width: 80%;
+    height: 400px;
+    margin-left: 10%;
+    background-position: center;
+}
+
+
+.textContent{
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+
+.text{
+	margin: 0;
+    padding: 0;
+	margin-top: 0px;
+	background-color: #233237;
+	color: white;
+	font-size: 25px;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+
+.textAlign{
+		padding-top: 30px;
+		padding-bottom: 30px;
+}
+
+ul#codeList{
+	text-align: center;
+	background-color: #fafafa;
+	overflow-y: hidden;
+
+}
+
+.code{
+	max-width: 160px;
+	max-height: 200px;
+	width: 100px;
+	height: 100px;
+	margin-left: 100px;
+	margin-right: 100px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	overflow-y: hidden;
+}
+
+.footer {
+	background-color: #333;
+	height: 120px;
+	width: 100%;
+}
+
+.footerDetails {
+	float: left;
+	padding-top: 50px;
+	padding-right: 100px;
+	overflow-y: hidden;
+}
+
+.footerContent {
+	width: 980px;
+	height: 100%;
+	margin: 0 auto;
+	width: 94%;
+}
+
+#iconLine { 
+	overflow-y: hidden;
+	float: right;
+	padding-top: 50px;
+}
+
+.iconImg {
+	display: inline; 
+	margin: 0 5px;
+}
+
+.signUp{
+	margin-left: 512px;
+	margin-top: 50px;
+	margin-bottom: 100px;
+	margin-right: 512px;
+}
+
+.header2{
+	width: 100%;
+	height: 20%;
+	font-size: 55px;
+	font-family: fantasy;
+}
+
+.formHeader{
+	width: 880px;
+	height: 15%;
+	font-size: 45px;
+	font-family: fantasy;
+	margin-left: 650px;
+}
+
+
+.form table{
+	width: 100%;
+	text-align: left;
+}
+
+.form table td{
+	vertical-align: top;
+}
+
+.form  .radio input {
+	width: 7%;
+	text-align: left;
+	margin-right: 10px;
+}
+
+.form  .check input {
+	width: 7%;
+	text-align: left;
+	margin-right: 10px;
+}
+
+.button input{
+	float: right;
+	cursor: pointer;
+	background: #333;
+	color: white;
+	padding: 8px;
+	margin-right: 20px;
+	width: 50%;
+	overflow-x: hidden;
+
+}
+
+
+*{	
+	overflow: auto;
+	margin: 0;
+    padding: 0;
+}
